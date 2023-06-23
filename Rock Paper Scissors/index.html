@@ -7,10 +7,15 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
   </head>
   <body>
-    <h1 class="text-center">Rock Paper Scissors</h1>
-	<p>Player score: <span id="playerScoreContent">0</span></p>
-	<p>Computer score: <span id="computerScoreContent">0</span></p>
-	<div class="container">
+    <style>
+	.container {padding-bottom:100px}
+	</style>
+	<div class="container text-center">
+	<h1>Rock Paper Scissors</h1>
+	<h4>Player score: <span id="playerScoreContent">0</span></h4>
+	<h4>Computer score: <span id="computerScoreContent">0</span></h4>
+	</div>
+	<div class="container text-center">
 		<div class="row">
 			<div class="col-md-4 col-sm-12">
 				<img class="img-fluid" src="images\rock.jpg" onclick="gameLoop('rock');"/>
@@ -28,20 +33,3 @@
 	<script src="script.js"></script>
   </body>
 </html>
-
-<html>
-<head>
-<title>Simple number guessing game</title>
-</head>
-<body>
-<h3>Guess a number between 1 and 10</h3>
-<p>Player score: <span id="playerScoreContent">0</span></p>
-<p>Computer score: <span id="computerScoreContent">0</span></p>
-<p>Time remaining: <span id="countDown">0</span> seconds</p>
-<p>Enter your guess here:<input type="text" id="playerGuessInput" /></p>
-<input  id="playButton" type="button" value="Play now" onclick="gameLoop();"/>
-<p>Tip: <span id="tipContent">Click to start a game</span></p>
-<script src="script.js"></script>
-</body>
-</html>
-
