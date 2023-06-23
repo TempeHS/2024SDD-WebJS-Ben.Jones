@@ -5,8 +5,9 @@ function gameLoop (playerClicked) {
 	const randomNumber = generateRandomNumber()
 	// convert random number to a choice so you can both equality check and use in the ouput string it should be stored in a const 
 	
-
 	
+	
+	const computerChoice = randomNumber //for debug only
 	equalityCheck (playerClicked, computerChoice);
 }
 
@@ -17,7 +18,7 @@ function generateRandomNumber () {
 
 
 function equalityCheck (playerChoice, computerChoice){
-	// perform an equality check and update scores and out put a string using concatenation that gives user feedback 
+	// perform an equality check, update scores and output a string using concatenation that gives user feedback 
 
 
 
