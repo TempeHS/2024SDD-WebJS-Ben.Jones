@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Rock Paper Scissors</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+  </head>
+  <body>
+    <style>
+	.container {padding-bottom:25px}
+	img {padding-top:25px;padding-bottom:25px}
+	</style>
+	<div class="container text-center">
+	<h1>Rock Paper Scissors</h1>
+	<h4>Player score: <span id="playerScoreContent">0</span></h4>
+	<h4>Computer score: <span id="computerScoreContent">0</span></h4>
+	</div>
+	<div class="container text-center">
+		<div class="row">
+			<div class="col-md-4 col-sm-12">
+				<img class="img-fluid" src="images\rock.jpg" onclick="gameLoop('rock');"/>
+			</div>
+			<div class="col-md-4 col-sm-12">
+				<img class="img-fluid" src="images\paper.jpg" onclick="gameLoop('paper');"/>
+			</div>
+			<div class="col-md-4 col-sm-12">
+				<img class="img-fluid" src="images\scissors.jpg" onclick="gameLoop('scissors');"/>
+			</div>
+		</div>
+		<h3 id="tipContent">Click a image to play!</h3>
+	</div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+	<script src="script.js"></script>
+  </body>
+</html>
