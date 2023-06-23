@@ -12,7 +12,7 @@ function gameLoop () {
 	randomNumber = 5;  //debug only
 	equalityCheck ();
 	updateHtmlContent ();
-//	secondCountDown();
+	secondCountDown();
 }
 
 function generateRandomNumber () {
@@ -34,56 +34,32 @@ function equalityCheck (){
 		playerScore = playerScore + 1;
 		playerTip = "Correct, click to play again";
 		document.getElementById("playButton").value = "Play now";
-		// clearTimeout(timerId);
-	} 
-}
-	
-	
-	
-	
-	
-	
-/*	
-	
-	
-	else {
+		clearTimeout(timerId);
+	} 	else {
 		document.getElementById("playButton").value = "Guess again";
 		if ( playerGuess < randomNumber ) {
-		playerTip = "It's higher than " + playerGuess;
+			playerTip = "It's higher than " + playerGuess;
 			}
 		if ( playerGuess > randomNumber ) {
-		playerTip = "It's lower than " + playerGuess;
+			playerTip = "It's lower than " + playerGuess;
 			}
 		if (isNaN (playerGuess)) {
-		playerTip = "Enter a number between 1 & 10";	
+			playerTip = "Enter a number between 1 & 10";	
 			}
 	}
 	return
 }
 
-
-
-
-
-*/
-
-
-
-/*
-
 function secondCountDown(){
-if (currentSecond!=1){
-currentSecond = currentSecond - 1;
-document.getElementById("countDown").innerHTML = currentSecond;
-}else{
-endGame();
-return
+	if (currentSecond!=1){
+		currentSecond = currentSecond - 1;
+		document.getElementById("countDown").innerHTML = currentSecond;
+	}else{
+		endGame();
+		return
+	}
+	timerId = setTimeout("secondCountDown()",1000);
 }
-timerId = setTimeout("secondCountDown()",1000);
-}
-
-
-
 
 function endGame() {
 	computerScore = computerScore + 1;
@@ -96,5 +72,3 @@ function endGame() {
 	updateHtmlContent ();
 	clearTimeout(timerId);
 }
-
-*/
