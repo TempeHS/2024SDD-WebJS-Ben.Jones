@@ -1,3 +1,15 @@
+//**********************************************************************************
+// written by Ben Jones
+//
+// Student boilerplate to make a OOP Rock Paper Scissors
+// - OOP - Const data type - Passing data into methods
+//
+// Written 22/6/2023
+// License: https://github.com/TempeHS/2024SDD-WebJS-Ben.Jones/blob/main/LICENSE
+//**********************************************************************************
+
+
+
 let playerScore;
 let computerScore;
 

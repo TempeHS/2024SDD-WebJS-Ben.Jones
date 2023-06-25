@@ -1,3 +1,13 @@
+//**********************************************************************************
+// written by Ben Jones
+//
+// Demo of a complex JS application that intergrates a range of JS skills including
+// - Arrays - Objects - Device alerts - JS CSS Control - JS SVG control
+//
+// Originally written 2018 and updated 25/6/2023
+// License: https://github.com/TempeHS/2024SDD-WebJS-Ben.Jones/blob/main/LICENSE
+//**********************************************************************************
+
 var listItemArray = [];
 var listItemArrayStrike = []
 var arrayIndex = 0;

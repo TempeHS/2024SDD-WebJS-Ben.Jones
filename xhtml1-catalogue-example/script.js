@@ -1,3 +1,12 @@
+//**********************************************************************************
+// written by Ben Jones
+//
+// A very simple demo of an XHTML AJAX application
+//
+// Originally written 2018 and updated 25/6/2023
+// License: https://github.com/TempeHS/2024SDD-WebJS-Ben.Jones/blob/main/LICENSE
+//**********************************************************************************
+
 callXml();
 
 function callXml() {

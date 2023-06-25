@@ -1,3 +1,13 @@
+//**********************************************************************************
+// written by Ben Jones
+//
+// Demo of a simple JS application that intergrates a range of JS skills including
+// - Timer - GameLoop - DOM.innerHTML
+//
+// Written 22/6/2023
+// License: https://github.com/TempeHS/2024SDD-WebJS-Ben.Jones/blob/main/LICENSE
+//**********************************************************************************
+
 var randomNumber = 0;
 var playerGuess = 0;
 var playerScore = 0;
@@ -9,7 +19,6 @@ var timerId = 0;
 
 function gameLoop () {
 	generateRandomNumber ();
-	randomNumber = 5;  //debug only
 	equalityCheck ();
 	updateHtmlContent ();
 	secondCountDown();

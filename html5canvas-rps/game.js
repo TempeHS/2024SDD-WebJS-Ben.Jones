@@ -1,3 +1,13 @@
+//**********************************************************************************
+// written by Ben Jones
+//
+// Demo of a simple JS application that intergrates a range of JS skills including
+// - HTML5 Canvas - Liquid layout in a canvas - GameLoop
+//
+// Orgiginally written 2017 and updated 25/6/2023
+// License: https://github.com/TempeHS/2024SDD-WebJS-Ben.Jones/blob/main/LICENSE
+//**********************************************************************************
+
 var images = {};
 var loadedImages = 0;
 var numImages = 0;
