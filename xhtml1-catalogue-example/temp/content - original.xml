@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CATALOG>
+  <CD>
+    <TITLE>Delete Yourself</TITLE>
+    <ARTIST>Atari Teenage Riot</ARTIST>
+    <COVER>https://upload.wikimedia.org/wikipedia/en/3/30/Delete_Yourself%21.jpg</COVER>
+    <COUNTRY>Gernany</COUNTRY>
+    <COMPANY>Digital Hardcore</COMPANY>
+    <PRICE>30</PRICE>
+    <YEAR>1995</YEAR>
+  </CD>
+  <CD>
+    <TITLE>Nine Inch Nails</TITLE>
+    <ARTIST>Bee Gees</ARTIST>
+    <COVER>https://upload.wikimedia.org/wikipedia/en/thumb/5/5a/The_Downward_Spiral.png/220px-The_Downward_Spiral.png</COVER>
+    <COUNTRY>USA</COUNTRY>
+    <COMPANY>Nothing</COMPANY>
+    <PRICE>35</PRICE>
+    <YEAR>1993</YEAR>
+  </CD>
+  <CD>
+    <TITLE>Stay Human</TITLE>
+    <ARTIST>Michael Franti and Spearhead</ARTIST>
+    <COVER>https://upload.wikimedia.org/wikipedia/en/a/a5/Stay_Human_audio_cover.jpg</COVER>
+    <COUNTRY>USA</COUNTRY>
+    <COMPANY>Boo Boo Wax</COMPANY>
+    <PRICE>25</PRICE>
+    <YEAR>2001</YEAR>
+  </CD>
+</CATALOG>
