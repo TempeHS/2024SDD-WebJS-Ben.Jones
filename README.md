@@ -1,8 +1,9 @@
 # A toolbox of Web JS Experiements
-Before you begin [setup Visual Studio Code](https://github.com/TempeHS/VisualStudioCodeSetup)
+Before you begin, [set up Visual Studio Code](https://github.com/TempeHS/VisualStudioCodeSetup).
 
 ## Learn DOM (Document Object Module) JS 
-A range of example basic HTML/CSS/JS applications that utiles the JS Documement Object Module
+A range of basic HTML/CSS/JS applications that utilise the JS Documement Object Module in different (not always correct) ways. These examples have been written to build student skills in JS and the DOM, so they need to conform to standards or be complete.
+
 | Application  | Source   | DOM Example	|
 |---|---|---|
 | [To do list](https://tempehs.github.io/2024SDD-WebJS-Ben.Jones/Array-To-Do-List/)   | [Code](https://github.com/TempeHS/2024SDD-WebJS-Ben.Jones/tree/main/Array-To-Do-List)  | Storing in Array, using local memory  |
