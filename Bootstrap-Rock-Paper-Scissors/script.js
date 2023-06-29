@@ -8,14 +8,14 @@
 // License: https://github.com/TempeHS/2024SDD-WebJS-Ben.Jones/blob/main/LICENSE
 //**********************************************************************************
 
-
-
 let playerScore;
 let computerScore;
 
 function gameLoop (playerClicked) {
 	const randomNumber = generateRandomNumber()
-	// convert random number to a choice so you can both equality check and use in the ouput string it should be stored in a const 
+
+	
+	3,2,1 // convert random number to a choice so you can both equality check and use in the ouput string it should be stored in a const 
 	
 	
 	
