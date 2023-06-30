@@ -8,5 +8,5 @@
 // License: https://github.com/TempeHS/2024SDD-WebJS-Ben.Jones/blob/main/LICENSE
 //**********************************************************************************
 
-var x = document.getElementById("playerWin");
+let x = document.getElementById("playerWin");
 x.style.display = "block";  // for debug only
