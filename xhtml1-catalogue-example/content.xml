@@ -36,4 +36,14 @@
     <PRICE>40</PRICE>
     <YEAR>2003</YEAR>
   </CD>
+    </CD>
+    <CD>
+    <TITLE>	Revolutionary Vol. 2</TITLE>
+    <ARTIST>Immortal Technique</ARTIST>
+    <COVER>https://upload.wikimedia.org/wikipedia/en/a/a8/Revolutionary_Vol_2.jpg</COVER>
+    <COUNTRY>USA</COUNTRY>
+    <COMPANY>Viper Records</COMPANY>
+    <PRICE>40</PRICE>
+    <YEAR>2003</YEAR>
+  </CD>
 </CATALOG>
